@@ -1,4 +1,4 @@
-name: Deploy GitHub Pages
+name: Deploy GitHub Pages (Vite)
 
 # 触发条件：推送到 main 分支或手动触发
 on:
@@ -6,36 +6,47 @@ on:
     branches: ["main"]
   workflow_dispatch:
 
-# 设置 GITHUB_TOKEN 的权限
+# 所需权限
 permissions:
   contents: read
   pages: write
   id-token: write
 
-# 只允许一个部署同时运行
+# 限制并发部署
 concurrency:
   group: "pages"
   cancel-in-progress: false
 
 jobs:
-  # 部署任务
   deploy:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Setup Pages
+      - name: Use Node.js 18
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: |
+          if [ -f package-lock.json ]; then npm ci; else npm install; fi
+
+      - name: Build
+        run: npm run build
+
+      - name: Configure GitHub Pages
         uses: actions/configure-pages@v4
 
-      - name: Upload artifact
+      - name: Upload `dist` artifact for Pages
         uses: actions/upload-pages-artifact@v3
         with:
-          # 上传整个仓库
-          path: '.'
+          path: ./dist
 
       - name: Deploy to GitHub Pages
         id: deployment
