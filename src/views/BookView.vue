@@ -24,7 +24,7 @@ const booksCollection = ref([
     year: '2011',
     pages: 360,
     isbn: '9787544253994',
-    cover: 'https://images.unsplash.com/photo-1543002588-bfa74002ed7e?w=400&h=600&fit=crop&q=80',
+    cover: 'public/s35027689.jpg',
     rating: 5,
     status: 'finished',
     progress: 100,
