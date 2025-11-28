@@ -24,16 +24,16 @@ const booksCollection = ref([
     year: '2011',
     pages: 360,
     isbn: '9787544253994',
-    cover: 'public/s35027689.jpg',
+    cover: '/s35027689.jpg',
     rating: 5,
     status: 'finished',
     progress: 100,
     startDate: '2024-01',
     finishDate: '2024-02',
     tags: ['魔幻现实主义', '拉美文学', '经典'],
-    review: '马尔克斯用魔幻的笔触描绘了布恩迪亚家族七代人的传奇故事。孤独是人类永恒的主题，而这本书将孤独诠释到了极致。每个人物都在追寻着什么，却又在不断地失去。',
-    favorite_quote: '生命中真正重要的不是你遭遇了什么，而是你记住了哪些事，又是如何铭记的。',
-    notes: '第一次读魔幻现实主义的作品，被深深震撼。马孔多这个小镇就像一个寓言，映射着人类文明的兴衰。',
+    review: '马尔克斯用魔幻现实主义的手法，讲述了布恩迪亚家族七代人的兴衰史。书中充满了奇幻的元素，却又深刻反映了拉丁美洲的历史与现实。每一个人物都栩栩如生，每一个细节都令人难忘。',
+    favorite_quote: '时间不是一条直线，而是一个圆圈，过去、现在和未来不断交织在一起。',
+    notes: '这本书让我深刻体会到时间的循环与宿命的力量。马尔克斯的语言充满诗意，每一个细节都值得细细品味。',
     color: 'from-amber-50 to-yellow-50 dark:from-amber-950/20 dark:to-yellow-950/20'
   },
   {
@@ -46,86 +46,42 @@ const booksCollection = ref([
     year: '2009',
     pages: 105,
     isbn: '9787532725694',
-    cover: 'public/根据网页图片生成书封面.png',
+    cover: '/sea.png',
     rating: 4,
     status: 'finished',
     progress: 100,
     startDate: '2024-03',
     finishDate: '2024-03',
-    tags: ['日本文学', '青春', '爱情'],
-    review: '村上春树最广为人知的作品。直子与绿子代表着两种截然不同的生命状态，渡边在她们之间徘徊，也在自我救赎与沉沦之间挣扎。',
-    favorite_quote: '死并非生的对立面，而作为生的一部分永存。',
-    notes: '读这本书的时候一直在听披头士的《Norwegian Wood》，音乐与文字交织，那种忧郁的气氛久久不能散去。',
+    tags: ['美国文学', '梦想', '哲学'],
+    review: '乔纳森是一只与众不同的海鸥，他渴望飞得更高、更远，追求完美的飞行艺术。通过他的故事，巴赫传达了追求梦想、超越自我的理念。这本书虽然短小，却充满了哲理和启示。',
+    favorite_quote: '你必须不断地超越自己，才能发现更广阔的天空。',
+    notes: '这本书让我重新思考了梦想与现实的关系。乔纳森的坚持和勇气令人敬佩，激励我在生活中也要勇敢追求自己的理想。',
     color: 'from-green-50 to-emerald-50 dark:from-green-950/20 dark:to-emerald-950/20'
   },
   {
     id: 3,
-    title: '月亮与六便士',
-    originalTitle: 'The Moon and Sixpence',
-    author: '毛姆',
-    translator: '傅惟慈',
-    publisher: '上海译文出版社',
-    year: '2006',
-    pages: 275,
-    isbn: '9787532739547',
-    cover: 'https://images.unsplash.com/photo-1544947950-fa07a98d237f?w=400&h=600&fit=crop&q=80',
+    title: '另一个，同一个',
+    originalTitle: 'El otro, el mismo',
+    author: '博尔赫斯',
+    translator: '王永年',
+    publisher: '上海译文新文本',
+    year: '2016',
+    pages: 187,
+    isbn: '9787532771257',
+    cover: '/yellowrose.jpg',
     rating: 5,
     status: 'reading',
     progress: 65,
     startDate: '2024-11',
     finishDate: null,
-    tags: ['英国文学', '人生', '艺术'],
-    review: '正在阅读中。斯特里克兰德抛弃一切追求艺术梦想的故事让人深思：我们是应该追逐天上的月亮，还是捡拾脚下的六便士？',
-    favorite_quote: '我用尽了全力，过着平凡的一生。',
-    notes: '看到他抛家弃子去追求绘画梦想时，内心五味杂陈。这是自私还是勇敢？也许两者都是。',
+    tags: ['阿根廷文学', '诗歌', '艺术'],
+    review: '正在阅读中。博尔赫斯创作于一九六四年的诗集，也是作者特别偏爱的一本，收诗七十五篇，包括名作《关于天赐的诗》、《猜测的诗》、《玫瑰与弥尔顿》、《胡宁》等',
+    favorite_quote: '我给你一个从未有过信仰的人的忠诚。 我给你我设法保全的我自己的核心——不营字造句，不和梦想交易，不被时间、欢乐和逆境触动的核心。',
+    notes: '博尔赫斯的诗歌总是充满哲思与想象，语言简练却意蕴深远。每读一首都能引发无尽的思考。',
     color: 'from-blue-50 to-indigo-50 dark:from-blue-950/20 dark:to-indigo-950/20'
   },
   {
     id: 4,
-    title: '人类简史',
-    originalTitle: 'Sapiens: A Brief History of Humankind',
-    author: '尤瓦尔·赫拉利',
-    translator: '林俊宏',
-    publisher: '中信出版社',
-    year: '2014',
-    pages: 440,
-    isbn: '9787508647357',
-    cover: 'https://images.unsplash.com/photo-1589829085413-56de8ae18c73?w=400&h=600&fit=crop&q=80',
-    rating: 5,
-    status: 'finished',
-    progress: 100,
-    startDate: '2024-05',
-    finishDate: '2024-06',
-    tags: ['历史', '人类学', '科普'],
-    review: '赫拉利用宏大的视角讲述了智人如何从一个普通物种成为地球的主宰。认知革命、农业革命、科学革命，每一次革命都重塑了人类社会。',
-    favorite_quote: '我们相信某种秩序，不是因为它客观存在，而是因为相信它可以让我们更好地合作。',
-    notes: '这本书彻底改变了我看待历史的方式。原来很多我们认为理所当然的东西，都只是"想象的秩序"。',
-    color: 'from-purple-50 to-pink-50 dark:from-purple-950/20 dark:to-pink-950/20'
-  },
-  {
-    id: 5,
-    title: '活着',
-    originalTitle: '活着',
-    author: '余华',
-    translator: null,
-    publisher: '作家出版社',
-    year: '2012',
-    pages: 191,
-    isbn: '9787506365437',
-    cover: 'https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=400&h=600&fit=crop&q=80',
-    rating: 5,
-    status: 'finished',
-    progress: 100,
-    startDate: '2024-07',
-    finishDate: '2024-07',
-    tags: ['中国文学', '现实主义', '人生'],
-    review: '福贵的一生经历了太多苦难，却依然选择活着。这本书让我明白，活着本身就是一种勇气，一种意义。',
-    favorite_quote: '人是为了活着本身而活着，而不是为了活着之外的任何事物而活着。',
-    notes: '读完后哭了很久。余华用最平实的语言写出了最残酷的现实，却又让人感受到生命的韧性与尊严。',
-    color: 'from-rose-50 to-red-50 dark:from-rose-950/20 dark:to-red-950/20'
-  },
-  {
-    id: 6,
     title: '小王子',
     originalTitle: 'Le Petit Prince',
     author: '圣埃克苏佩里',
@@ -134,40 +90,18 @@ const booksCollection = ref([
     year: '2003',
     pages: 120,
     isbn: '9787020042494',
-    cover: 'https://images.unsplash.com/photo-1495446815901-a7297e633e8d?w=400&h=600&fit=crop&q=80',
+    cover: '/小王子 ｜圣埃克苏佩里 ｜法文封面_1_KINGFISH_来自小红书网页版.jpg',
     rating: 5,
     status: 'finished',
     progress: 100,
     startDate: '2024-09',
     finishDate: '2024-09',
     tags: ['童话', '哲理', '法国文学'],
-    review: '表面上是给孩子看的童话，实际上是写给大人的寓言。小王子的纯真与大人世界的荒诞形成鲜明对比。',
-    favorite_quote: '真正重要的东西，眼睛是看不见的，只能用心去看。',
-    notes: '每隔几年就要重读一次。每次读都有不同的感悟。玫瑰花、狐狸、星星，每个意象都值得细细品味。',
+    review: '小王子通过一个纯真的小男孩的视角，探讨了爱、孤独、友谊和人生的意义。',
+    favorite_quote: '“真正重要的东西，用眼睛是看不见的，必须用心去感受。”',
+    notes: '小王子的故事虽然简单，却蕴含了深刻的人生哲理。它提醒我们保持童心，珍惜眼前的美好。',
     color: 'from-sky-50 to-blue-50 dark:from-sky-950/20 dark:to-blue-950/20'
   },
-  {
-    id: 7,
-    title: '不能承受的生命之轻',
-    originalTitle: 'Nesnesitelná lehkost bytí',
-    author: '米兰·昆德拉',
-    translator: '许钧',
-    publisher: '上海译文出版社',
-    year: '2003',
-    pages: 312,
-    isbn: '9787532732197',
-    cover: 'https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?w=400&h=600&fit=crop&q=80',
-    rating: 4,
-    status: 'wishlist',
-    progress: 0,
-    startDate: null,
-    finishDate: null,
-    tags: ['捷克文学', '哲学', '爱情'],
-    review: null,
-    favorite_quote: null,
-    notes: '一直想读但还没开始。听说是一本需要慢慢品读的书，打算找个安静的假期细细阅读。',
-    color: 'from-violet-50 to-purple-50 dark:from-violet-950/20 dark:to-purple-950/20'
-  }
 ])
 
 // 过滤后的书籍
@@ -208,7 +142,7 @@ const getStatusLabel = (status: string) => {
             </div>
             <span
               class="font-handwriting text-xl text-stone-800 dark:text-stone-100 group-hover:text-amber-600 dark:group-hover:text-amber-400 transition-colors duration-300 relative">
-              Islatri 的小宇宙
+              A Room of My Own
               <span
                 class="absolute bottom-0 left-0 w-0 h-0.5 bg-amber-400 dark:bg-amber-500 group-hover:w-full transition-all duration-300"></span>
             </span>
@@ -246,7 +180,7 @@ const getStatusLabel = (status: string) => {
                 </span>
               </h1>
               <p class="text-lg text-stone-700 dark:text-stone-300 leading-relaxed">
-                127本书，127次心灵的旅行<br />
+                “生命久如暗室，不妨我明写春诗”<br />
                 在文字的海洋中寻找共鸣
               </p>
             </div>
@@ -513,10 +447,10 @@ const getStatusLabel = (status: string) => {
             <BookOpen :size="48" class="text-amber-400 dark:text-amber-600 mx-auto mb-6 opacity-40" />
             <blockquote
               class="text-2xl md:text-3xl text-stone-800 dark:text-stone-200 leading-relaxed font-handwriting text-center mb-6">
-              "读书，是为了遇见<br />
-              更好的自己"
+              "每览昔人兴感之由，若合一契，<br />
+              未尝不临文嗟悼，不能喻之于怀"
             </blockquote>
-            <p class="text-center text-sm text-stone-600 dark:text-stone-400 tracking-widest">— Islatri, 2024</p>
+            <p class="text-center text-sm text-stone-600 dark:text-stone-400 tracking-widest">— Rachel, 2024</p>
           </div>
         </div>
       </section>
@@ -528,7 +462,7 @@ const getStatusLabel = (status: string) => {
       class="mt-20 border-t-4 border-dashed border-amber-300 dark:border-amber-700 bg-stone-100 dark:bg-stone-900 px-6 py-8 relative z-20">
       <div class="max-w-7xl mx-auto text-center">
         <p class="text-xs text-stone-500 dark:text-stone-500">
-          © 2025 Islatri 的阅读笔记 · 共收录 {{ booksCollection.length }} 本书籍
+          © 2025 Rachel 的阅读笔记 · 共收录 {{ booksCollection.length }} 本书籍
         </p>
       </div>
     </footer>

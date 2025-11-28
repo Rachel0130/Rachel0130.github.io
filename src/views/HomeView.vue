@@ -29,7 +29,7 @@ onMounted(() => {
             </div>
             <span
               class="font-handwriting text-xl text-stone-800 dark:text-stone-100 group-hover:text-rose-600 dark:group-hover:text-rose-400 transition-colors duration-300 relative">
-              Islatri 的小宇宙
+              A Room of My Own
               <span
                 class="absolute bottom-0 left-0 w-0 h-0.5 bg-rose-400 dark:bg-rose-500 group-hover:w-full transition-all duration-300"></span>
             </span>
@@ -38,7 +38,7 @@ onMounted(() => {
             <RouterLink to="/books"
               class="relative py-2 text-stone-700 dark:text-stone-300 font-medium transition-all duration-300 group">
               <span class="relative">
-                书本
+                书籍
                 <span
                   class="absolute bottom-0 left-0 w-0 h-0.5 bg-rose-600 dark:bg-rose-400 group-hover:w-full transition-all duration-300"></span>
               </span>
@@ -176,29 +176,29 @@ onMounted(() => {
                   <h2 class="text-4xl font-bold text-stone-900 dark:text-stone-100">阅读笔记</h2>
                 </div>
                 <p class="text-lg text-stone-700 dark:text-stone-300 leading-relaxed">
-                  从小说到诗集，从历史到哲学。每一本书都是一次精神的远行，
+                  从小说到诗集，从童话到哲学。每一本书都是一次精神的远行，
                   在文字的迷宫里寻找共鸣与答案。
                 </p>
                 <div class="flex gap-2 flex-wrap">
                   <span
-                    class="px-3 py-1 bg-white dark:bg-stone-800 text-xs text-stone-600 dark:text-stone-400 shadow-sm">村上春树</span>
+                    class="px-3 py-1 bg-white dark:bg-stone-800 text-xs text-stone-600 dark:text-stone-400 shadow-sm">博尔赫斯</span>
                   <span
                     class="px-3 py-1 bg-white dark:bg-stone-800 text-xs text-stone-600 dark:text-stone-400 shadow-sm">加西亚·马尔克斯</span>
                   <span
-                    class="px-3 py-1 bg-white dark:bg-stone-800 text-xs text-stone-600 dark:text-stone-400 shadow-sm">卡尔维诺</span>
+                    class="px-3 py-1 bg-white dark:bg-stone-800 text-xs text-stone-600 dark:text-stone-400 shadow-sm">圣埃克苏佩里</span>
                 </div>
                 <div class="pt-4">
-                  <span class="text-amber-600 dark:text-amber-400 font-bold group-hover:underline">查看全部 127 本 →</span>
+                  <span class="text-amber-600 dark:text-amber-400 font-bold group-hover:underline">查看全部 4 本 →</span>
                 </div>
               </div>
 
               <div class="relative">
-                <img src="https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?w=600&h=400&fit=crop&q=80"
+                <img src="/小王子手绘本的一些插图 特别可爱_1_梦小圆_来自小红书网页版.jpg"
                   alt="Reading"
                   class="w-full aspect-4/3 object-cover shadow-xl group-hover:shadow-2xl transition-shadow" />
                 <div
                   class="absolute -bottom-3 -right-3 w-24 h-24 bg-amber-400 dark:bg-amber-600 flex items-center justify-center shadow-lg rotate-[8deg]">
-                  <span class="text-3xl font-bold text-white">127</span>
+                  <span class="text-3xl font-bold text-white">4</span>
                 </div>
               </div>
             </div>
@@ -215,7 +215,7 @@ onMounted(() => {
 
             <div class="grid md:grid-cols-2 gap-8 items-center">
               <div class="relative order-2 md:order-1">
-                <img src="https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?w=600&h=400&fit=crop&q=80"
+                <img src="/海上钢琴师｜构图x色彩_1_FabulousMovie_来自小红书网页版.jpg"
                   alt="Cinema"
                   class="w-full aspect-4/3 object-cover shadow-xl group-hover:shadow-2xl transition-shadow" />
                 <div
@@ -243,7 +243,7 @@ onMounted(() => {
                   <span
                     class="px-3 py-1 bg-white dark:bg-stone-800 text-xs text-stone-600 dark:text-stone-400 shadow-sm">悬疑</span>
                   <span
-                    class="px-3 py-1 bg-white dark:bg-stone-800 text-xs text-stone-600 dark:text-stone-400 shadow-sm">动画</span>
+                    class="px-3 py-1 bg-white dark:bg-stone-800 text-xs text-stone-600 dark:text-stone-400 shadow-sm">成长</span>
                 </div>
                 <div class="pt-4">
                   <span class="text-blue-600 dark:text-blue-400 font-bold group-hover:underline">查看全部 89 部 →</span>
@@ -267,14 +267,14 @@ onMounted(() => {
 
               <div class="space-y-6">
                 <div class="relative w-full aspect-square bg-white dark:bg-stone-800 p-2 shadow-lg -rotate-2deg">
-                  <img src="https://images.unsplash.com/photo-1487180144351-b8472da7d491?w=500&h=500&fit=crop&q=80"
+                  <img src="/SVT团体照 适合当电脑壁纸_1_17的克拉（求关注）_来自小红书网页版.jpg"
                     alt="Music" class="w-full h-full object-cover" />
                 </div>
 
                 <div class="space-y-3">
                   <h2 class="text-3xl font-bold text-stone-900 dark:text-stone-100">音乐清单</h2>
                   <p class="text-stone-700 dark:text-stone-300 leading-relaxed">
-                    从古典到爵士，从摇滚到电子。342首歌曲构成了我的听觉地图。
+                    在音符的流淌中找到共鸣与慰藉。
                   </p>
                   <div class="flex items-center gap-2">
                     <div class="flex-1 h-1 bg-purple-300 dark:bg-purple-700"></div>
@@ -298,14 +298,14 @@ onMounted(() => {
 
               <div class="space-y-6">
                 <div class="relative w-full aspect-square bg-white dark:bg-stone-800 p-2 shadow-lg rotate-2deg">
-                  <img src="https://images.unsplash.com/photo-1594035910387-fea47794261f?w=500&h=500&fit=crop&q=80"
+                  <img src="/香水瓶合集_1_香水与猫_来自小红书网页版.jpg"
                     alt="Perfume" class="w-full h-full object-cover" />
                 </div>
 
                 <div class="space-y-3">
                   <h2 class="text-3xl font-bold text-stone-900 dark:text-stone-100">香氛档案</h2>
                   <p class="text-stone-700 dark:text-stone-300 leading-relaxed">
-                    每一款香水都是一段记忆，一个故事，一次情感的凝结。
+                    香水如同隐形的记忆，捕捉瞬间的情感与氛围。
                   </p>
                   <div class="flex items-center gap-2">
                     <div class="flex-1 h-1 bg-rose-300 dark:bg-rose-700"></div>
@@ -328,11 +328,11 @@ onMounted(() => {
             <div class="absolute -top-4 left-1/2 -translate-x-1/2 w-16 h-8 bg-amber-200/60 dark:bg-amber-800/60"></div>
             <blockquote
               class="text-2xl md:text-3xl text-stone-800 dark:text-stone-200 leading-relaxed font-handwriting text-center">
-              "收藏不是占有<br />
-              而是与美好事物<br />
-              建立深刻的连接"
+              好事总会发生在<br />
+              下个转弯<br />
+              
             </blockquote>
-            <p class="text-right mt-4 text-stone-600 dark:text-stone-400">— Islatri, 2025</p>
+            <p class="text-right mt-4 text-stone-600 dark:text-stone-400">— 《恒温动物》</p>
           </div>
         </div>
       </section>
