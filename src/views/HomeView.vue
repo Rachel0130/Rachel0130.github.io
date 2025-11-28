@@ -193,7 +193,7 @@ onMounted(() => {
               </div>
 
               <div class="relative">
-                <img src="/小王子手绘本的一些插图 特别可爱_1_梦小圆_来自小红书网页版.jpg"
+                <img src="/little prince.jpg"
                   alt="Reading"
                   class="w-full aspect-4/3 object-cover shadow-xl group-hover:shadow-2xl transition-shadow" />
                 <div
