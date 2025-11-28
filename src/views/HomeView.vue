@@ -344,10 +344,10 @@ onMounted(() => {
       class="mt-20 border-t-4 border-dashed border-stone-300 dark:border-stone-700 bg-stone-100 dark:bg-stone-900 px-6 py-8 relative z-20">
       <div class="max-w-7xl mx-auto text-center space-y-4">
         <div class="flex justify-center gap-6 text-sm text-stone-600 dark:text-stone-400">
-          <a href="#" class="hover:text-rose-600 dark:hover:text-rose-400 transition-colors">豆瓣</a>
-          <a href="#" class="hover:text-rose-600 dark:hover:text-rose-400 transition-colors">Instagram</a>
-          <a href="#" class="hover:text-rose-600 dark:hover:text-rose-400 transition-colors">小红书</a>
-          <a href="#" class="hover:text-rose-600 dark:hover:text-rose-400 transition-colors">Email</a>
+          <a href="https://www.douban.com/" class="hover:text-rose-600 dark:hover:text-rose-400 transition-colors">豆瓣</a>
+          <a href="https://www.instagram.com/" class="hover:text-rose-600 dark:hover:text-rose-400 transition-colors">Instagram</a>
+          <a href="https://www.xiaohongshu.com/" class="hover:text-rose-600 dark:hover:text-rose-400 transition-colors">小红书</a>
+          <a href="https://mail.qq.com/?cancel_login=true&from=session_timeout" class="hover:text-rose-600 dark:hover:text-rose-400 transition-colors">Email</a>
         </div>
         <p class="text-xs text-stone-500 dark:text-stone-500">
           © 2025 我的收藏册 · 用心记录生活中的美好
