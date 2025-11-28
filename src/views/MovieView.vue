@@ -445,9 +445,9 @@ const filmStripHovered = ref(false)
                     </p>
 
                     <!-- Tickets -->
-                    <div v-if="movie.tickets.length > 0" class="mt-4 flex gap-2">
+                    <div v-if="movie.tickets.length > 0" class="mt-4 space-y-2">
                       <img v-for="(ticket, i) in movie.tickets" :key="i" :src="ticket" alt="Movie ticket"
-                        class="w-24 h-12 object-cover shadow-md -rotate-2deg" />
+                        class="w-full h-auto object-cover shadow-md -rotate-1deg" />
                     </div>
                   </div>
                 </Transition>
