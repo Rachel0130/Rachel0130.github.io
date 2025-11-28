@@ -450,7 +450,7 @@ const getStatusLabel = (status: string) => {
               "每览昔人兴感之由，若合一契，<br />
               未尝不临文嗟悼，不能喻之于怀"
             </blockquote>
-            <p class="text-center text-sm text-stone-600 dark:text-stone-400 tracking-widest">— Rachel, 2024</p>
+            <p class="text-center text-sm text-stone-600 dark:text-stone-400 tracking-widest">— 王羲之</p>
           </div>
         </div>
       </section>
