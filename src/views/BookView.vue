@@ -68,7 +68,7 @@ const booksCollection = ref([
     year: '2016',
     pages: 187,
     isbn: '9787532771257',
-    cover: '/yellowrose.jpg',
+    cover: '/获取高清封面.png',
     rating: 5,
     status: 'reading',
     progress: 65,
@@ -98,7 +98,7 @@ const booksCollection = ref([
     finishDate: '2024-09',
     tags: ['童话', '哲理', '法国文学'],
     review: '小王子通过一个纯真的小男孩的视角，探讨了爱、孤独、友谊和人生的意义。',
-    favorite_quote: '“真正重要的东西，用眼睛是看不见的，必须用心去感受。”',
+    favorite_quote: '真正重要的东西，用眼睛是看不见的，必须用心去感受。',
     notes: '小王子的故事虽然简单，却蕴含了深刻的人生哲理。它提醒我们保持童心，珍惜眼前的美好。',
     color: 'from-sky-50 to-blue-50 dark:from-sky-950/20 dark:to-blue-950/20'
   },

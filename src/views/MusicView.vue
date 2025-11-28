@@ -11,99 +11,74 @@ const showLyrics = ref<number | null>(null)
 const musicCollection = ref([
   {
     id: 1,
-    title: '起风了',
-    artist: '买辣椒也用券',
-    album: '起风了',
-    year: '2017',
-    genre: '国语流行',
-    cover: 'https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=400&h=400&fit=crop&q=80',
-    neteaseId: '1330348068', // 网易云音乐ID
-    story: '这首歌让我想起了那年夏天的风，骑着单车穿过林荫道，所有的烦恼都随风而去。',
-    lyrics: `这一路上走走停停\n顺着少年漂流的痕迹\n迈出车站的前一刻\n竟有些犹豫\n不禁笑这近乡情怯\n仍无法避免\n而长野的天\n依旧那么暖\n风吹起了从前`,
-    tags: ['治愈', '民谣', '青春'],
+    title: 'Wait for it',
+    artist: 'Leslie Odom Jr.',
+    album: 'Hamilton Soundtrack',
+    year: '2015',
+    genre: 'Broadway/Musical',
+    cover: '/720242C81D55705F5E28706B887EC207.jpg',
+    neteaseId: '35804611', // 网易云音乐ID
+    vip: true, // 是否为VIP歌曲
+    story: '这首歌来自音乐剧《汉密尔顿》，每次听到都会想起第一次观看这部音乐剧时的震撼和感动。',
+    lyrics: `I am the one thing in life I can control\nI am inimitable, I am an original\nI’m not falling behind or running late\nI’m not standing still, I am lying in wait`,
+    tags: ['音乐剧', '励志', '经典'],
     rating: 5,
     playCount: 234
   },
   {
     id: 2,
-    title: 'Someone Like You',
-    artist: 'Adele',
-    album: '21',
-    year: '2011',
-    genre: 'Pop/Soul',
-    cover: 'https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=400&h=400&fit=crop&q=80',
-    neteaseId: '3986241',
-    story: 'Adele的声音总能触动内心最柔软的地方，每次听到都会想起某个特别的人。',
-    lyrics: `Never mind, I'll find someone like you\nI wish nothing but the best for you too\nDon't forget me, I beg\nI remember you said\nSometimes it lasts in love\nBut sometimes it hurts instead`,
-    tags: ['灵魂', '情感', '经典'],
+    title: 'La gloire à mes genoux',
+    artist: 'Côme',
+    album: 'Le rouge et le noir - L’Opéra Rock',
+    year: '2016',
+    genre: 'French Rock',
+    cover: '/4D6340F32208D64A1897268E9FB38560.jpg',
+    neteaseId: '428649319',
+    vip: false,
+    story: '年轻，热血，充满激情与野心的法语摇滚，每次听都能感受到那种燃烧的力量。',
+    lyrics: `Je veux la gloire à mes genoux\nJe veux le monde à genoux\nJe veux la vie à mes pieds\nJe veux l'amour à mes côtés`,
+    tags: ['法语', '摇滚', '热血'],
     rating: 5,
     playCount: 567
   },
   {
     id: 3,
-    title: '夜曲',
-    artist: '周杰伦',
-    album: '十一月的萧邦',
-    year: '2005',
-    genre: '中国风',
-    cover: 'https://images.unsplash.com/photo-1511379938547-c1f69419868d?w=400&h=400&fit=crop&q=80',
-    neteaseId: '185668',
-    story: '周董的经典之作，复古的钢琴声配上独特的嗓音，百听不厌的神曲。',
-    lyrics: `一群嗜血的蚂蚁\n被腐肉所吸引\n我面无表情\n看孤独的风景\n失去你\n爱恨开始分明\n失去你\n还有什么事好关心`,
-    tags: ['中国风', '经典', 'R&B'],
+    title: '夏夜最后的烟火',
+    artist: '颜人中',
+    album: '夏夜最后的烟火',
+    year: '2014',
+    genre: '国语流行',
+    cover: '/CCDF4D3FBFB8F2FE1BC374A742E59A22.jpg',
+    neteaseId: '1482867143',
+    vip: true,
+    story: '这首歌因为某些人而变得特别。',
+    lyrics: `当我抬起头\n你正看向我\n眼中倒映着夏夜绚烂的烟火\n灰暗的心\n竟然开始变鲜活\n你的存在\n治愈我`,
+    tags: ['抒情', '治愈', '夏日'],
     rating: 5,
     playCount: 892
   },
   {
     id: 4,
-    title: 'Bloom',
-    artist: 'The Paper Kites',
-    album: 'Woodland',
-    year: '2011',
-    genre: 'Indie Folk',
-    cover: 'https://images.unsplash.com/photo-1459749411175-04bf5292ceea?w=400&h=400&fit=crop&q=80',
-    neteaseId: '26583079',
-    story: '安静的午后，泡一杯咖啡，这首歌仿佛能让时间慢下来。',
-    lyrics: `In the morning when I wake\nAnd the sun is coming through\nOh, you fill my lungs with sweetness\nAnd you fill my head with you`,
-    tags: ['民谣', '独立音乐', '轻柔'],
+    title: "E l'Alba Verrà",
+    artist: 'Ania Cecilia',
+    album: 'Nuda',
+    year: '2008',
+    genre: 'Italian pop',
+    cover: '/BCBB9E55D9094F12D303CDDCD7B6C79D.jpg',
+    neteaseId: '2176214',
+    vip: false,
+    story: '我从一部小说中认识她。意大利语的温柔与细腻，在这首歌里展现得淋漓尽致。',
+    lyrics: `Notte prendi i sogni infranti\nE fanne stelle scintillanti\nFammi guardare le mie rose\nArrampicarsi fino al sole\nora che piove…\nE l’alba verrà fino a me\nsi, arriverà anche per me`,
+    tags: ['意大利语', '抒情', '温柔'],
     rating: 4,
     playCount: 156
   },
-  {
-    id: 5,
-    title: '云烟成雨',
-    artist: '房东的猫',
-    album: '云烟成雨',
-    year: '2017',
-    genre: '国语流行',
-    cover: 'https://images.unsplash.com/photo-1487180144351-b8472da7d491?w=400&h=400&fit=crop&q=80',
-    neteaseId: '569200213',
-    story: '深夜单曲循环，歌词写进了心里，每个字都是故事。',
-    lyrics: `如烟往事\n俱忘却\n心底波澜现\n抑制不住的怀念\n云烟成雨\n泪湿衣襟`,
-    tags: ['抒情', '治愈', '国风'],
-    rating: 5,
-    playCount: 445
-  },
-  {
-    id: 6,
-    title: 'La Vie En Rose',
-    artist: 'Édith Piaf',
-    album: 'La Vie En Rose',
-    year: '1947',
-    genre: 'French Chanson',
-    cover: 'https://images.unsplash.com/photo-1514320291840-2e0a9bf2a9ae?w=400&h=400&fit=crop&q=80',
-    neteaseId: '2992493',
-    story: '法语的浪漫在这首歌里体现得淋漓尽致，vintage的感觉让人沉醉。',
-    lyrics: `Quand il me prend dans ses bras\nIl me parle tout bas\nJe vois la vie en rose`,
-    tags: ['法语', '经典', '浪漫'],
-    rating: 5,
-    playCount: 321
-  }
 ])
+
 
 // 当前选中的类型过滤
 const currentFilter = ref('all')
-const filters = ['all', '治愈', '经典', '民谣', '中国风', '情感']
+const filters = ['all', '治愈', '经典', '情感']
 
 // 过滤后的音乐列表
 const filteredMusic = computed(() => {
@@ -123,9 +98,21 @@ const toggleLyrics = (id: number) => {
   showLyrics.value = showLyrics.value === id ? null : id
 }
 
-// 获取网易云播放器 iframe
+// 获取网易云播放器 iframe - 改进的方式
 const getNeteasePlayer = (id: string) => {
-  return `//music.163.com/outchain/player?type=2&id=${id}&auto=0&height=66`
+  return `https://music.163.com/outchain/player?type=2&id=${id}&auto=0&height=66`
+}
+
+// 处理iframe加载错误（仅在开发环境输出）
+const handleIframeError = (error: any) => {
+  if (import.meta.env.DEV) {
+    console.warn('网易云播放器加载异常:', error)
+  }
+}
+
+// iframe加载完成（仅在调试时可用）
+const handleIframeLoad = () => {
+  console.log('网易云播放器加载完成')
 }
 </script>
 
@@ -145,7 +132,7 @@ const getNeteasePlayer = (id: string) => {
             </div>
             <span
               class="font-handwriting text-xl text-stone-800 dark:text-stone-100 group-hover:text-purple-600 dark:group-hover:text-purple-400 transition-colors duration-300 relative">
-              Islatri 的小宇宙
+              A Room of My Own
               <span
                 class="absolute bottom-0 left-0 w-0 h-0.5 bg-purple-400 dark:bg-purple-500 group-hover:w-full transition-all duration-300"></span>
             </span>
@@ -183,7 +170,7 @@ const getNeteasePlayer = (id: string) => {
                 </span>
               </h1>
               <p class="text-lg text-stone-700 dark:text-stone-300 leading-relaxed">
-                342首歌，342种心情<br />
+                有声的诗<br />
                 每一首都是生命中的soundtrack
               </p>
             </div>
@@ -333,14 +320,43 @@ const getNeteasePlayer = (id: string) => {
                 <!-- NetEase Player -->
                 <div class="bg-white dark:bg-stone-800 p-4 shadow-lg">
                   <div class="flex items-center justify-between mb-3">
-                    <p class="text-xs font-bold text-stone-700 dark:text-stone-300 tracking-wider">网易云音乐播放器</p>
+                    <div class="flex items-center gap-2">
+                      <p class="text-xs font-bold text-stone-700 dark:text-stone-300 tracking-wider">网易云音乐播放器</p>
+                      <span v-if="music.vip"
+                        class="px-2 py-1 bg-amber-400 dark:bg-amber-600 text-white text-xs font-bold rounded">VIP</span>
+                    </div>
                     <div class="flex items-center gap-2 text-xs text-stone-500 dark:text-stone-500">
                       <Play :size="12" />
                       <span>{{ music.playCount }} 次播放</span>
                     </div>
                   </div>
-                  <iframe title="Netease Music Player" :src="getNeteasePlayer(music.neteaseId)" width="100%" height="86"
-                    class="rounded"></iframe>
+
+                  <!-- VIP提示 -->
+                  <div v-if="music.vip"
+                    class="mb-3 p-3 bg-amber-50 dark:bg-amber-950/30 border border-amber-200 dark:border-amber-800 rounded">
+                    <p class="text-xs text-amber-800 dark:text-amber-200 mb-2">
+                      ⭐ 此歌曲为VIP内容，网易云播放器无法直接播放。请前往网易云音乐APP或网站使用VIP账户进行播放。
+                    </p>
+                    <a :href="`https://music.163.com/#/song?id=${music.neteaseId}`" target="_blank"
+                      rel="noopener noreferrer"
+                      class="inline-flex items-center gap-1 px-3 py-1.5 bg-amber-400 dark:bg-amber-600 hover:bg-amber-500 dark:hover:bg-amber-700 text-white text-xs font-bold rounded transition-colors">
+                      前往网易云音乐 →
+                    </a>
+                  </div>
+
+                  <!-- 播放器或提示 -->
+                  <div v-if="!music.vip">
+                    <iframe title="Netease Music Player" :src="getNeteasePlayer(music.neteaseId)" width="100%"
+                      height="86" class="rounded"
+                      sandbox="allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"
+                      @error="handleIframeError" @load="handleIframeLoad" loading="lazy"
+                      referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                  </div>
+
+                  <p class="text-xs text-stone-400 dark:text-stone-600 mt-2">
+                    💡 {{ music.vip ? '如需播放，请访问网易云音乐官网或移动应用' : '若播放器显示异常，属于网易云跨域限制，不影响实际播放' }}
+                  </p>
                 </div>
 
                 <!-- Lyrics Toggle -->
@@ -396,7 +412,7 @@ const getNeteasePlayer = (id: string) => {
       class="mt-20 border-t-4 border-dashed border-purple-300 dark:border-purple-700 bg-stone-100 dark:bg-stone-900 px-6 py-8 relative z-20">
       <div class="max-w-7xl mx-auto text-center">
         <p class="text-xs text-stone-500 dark:text-stone-500">
-          © 2025 Islatri 的音乐收藏 · 共收录 {{ musicCollection.length }} 首歌曲
+          © 2025 Rachel 的音乐收藏 · 共收录 {{ musicCollection.length }} 首歌曲
         </p>
       </div>
     </footer>

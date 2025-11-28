@@ -126,7 +126,7 @@ onMounted(() => {
             <!-- Polaroid 1 -->
             <div
               class="absolute top-0 right-12 w-60 bg-white dark:bg-stone-800 p-3 shadow-2xl rotate-[8deg] hover:rotate-[4deg] hover:shadow-[0_25px_50px_-12px_rgba(0,0,0,0.5)] hover:z-9999 transition-all duration-300 cursor-pointer z-10">
-              <img src="https://images.unsplash.com/photo-1512820790803-83ca734da794?w=400&h=400&fit=crop&q=80"
+              <img src="/小王子手绘本的一些插图 特别可爱_1_梦小圆_来自小红书网页版.jpg"
                 alt="Books" class="w-full aspect-square object-cover mb-2" />
               <p class="text-center font-handwriting text-stone-700 dark:text-stone-300">最近在读的书 📖</p>
             </div>
@@ -134,7 +134,7 @@ onMounted(() => {
             <!-- Polaroid 2 -->
             <div
               class="absolute top-32 left-8 w-56 bg-white dark:bg-stone-800 p-3 shadow-2xl -rotate-6deg hover:-rotate-2deg hover:shadow-[0_25px_50px_-12px_rgba(0,0,0,0.5)] hover:z-9999 transition-all duration-300 cursor-pointer z-20">
-              <img src="https://images.unsplash.com/photo-1485846234645-a62644f84728?w=400&h=400&fit=crop&q=80"
+              <img src="/黑色看客中 逆流而上的一抹粉色_1_元气呖呖🍓_来自小红书网页版.jpg"
                 alt="Cinema" class="w-full aspect-square object-cover mb-2" />
               <p class="text-center font-handwriting text-stone-700 dark:text-stone-300">电影之夜 🎬</p>
             </div>
@@ -142,7 +142,7 @@ onMounted(() => {
             <!-- Polaroid 3 -->
             <div
               class="absolute bottom-8 right-4 w-52 bg-white dark:bg-stone-800 p-3 shadow-2xl rotate-12deg hover:rotate-8deg hover:shadow-[0_25px_50px_-12px_rgba(0,0,0,0.5)] hover:z-9999 transition-all duration-300 cursor-pointer z-30">
-              <img src="https://images.unsplash.com/photo-1619983081563-430f63602796?w=400&h=400&fit=crop&q=80"
+              <img src="/xs8S1000x1000.jpg"
                 alt="Perfume" class="w-full aspect-square object-cover mb-2" />
               <p class="text-center font-handwriting text-stone-700 dark:text-stone-300">香水收藏 ✨</p>
             </div>
@@ -220,7 +220,7 @@ onMounted(() => {
                   class="w-full aspect-4/3 object-cover shadow-xl group-hover:shadow-2xl transition-shadow" />
                 <div
                   class="absolute -bottom-3 -left-3 w-24 h-24 bg-blue-400 dark:bg-blue-600 flex items-center justify-center shadow-lg rotate-[-8deg]">
-                  <span class="text-3xl font-bold text-white">89</span>
+                  <span class="text-3xl font-bold text-white">4</span>
                 </div>
                 <!-- Film Strip Decoration -->
                 <div class="absolute -top-2 -right-2 w-12 h-full bg-stone-800 dark:bg-stone-300 opacity-20"></div>
@@ -246,7 +246,7 @@ onMounted(() => {
                     class="px-3 py-1 bg-white dark:bg-stone-800 text-xs text-stone-600 dark:text-stone-400 shadow-sm">成长</span>
                 </div>
                 <div class="pt-4">
-                  <span class="text-blue-600 dark:text-blue-400 font-bold group-hover:underline">查看全部 89 部 →</span>
+                  <span class="text-blue-600 dark:text-blue-400 font-bold group-hover:underline">查看全部 4 部 →</span>
                 </div>
               </div>
             </div>
@@ -278,7 +278,7 @@ onMounted(() => {
                   </p>
                   <div class="flex items-center gap-2">
                     <div class="flex-1 h-1 bg-purple-300 dark:bg-purple-700"></div>
-                    <span class="text-2xl font-bold text-purple-600 dark:text-purple-400">342</span>
+                    <span class="text-2xl font-bold text-purple-600 dark:text-purple-400">1063</span>
                   </div>
                   <span class="inline-block text-purple-600 dark:text-purple-400 font-bold group-hover:underline">进入播放列表
                     →</span>
@@ -298,7 +298,7 @@ onMounted(() => {
 
               <div class="space-y-6">
                 <div class="relative w-full aspect-square bg-white dark:bg-stone-800 p-2 shadow-lg rotate-2deg">
-                  <img src="/香水瓶合集_1_香水与猫_来自小红书网页版.jpg"
+                  <img src="/解放橘郡‖你或像你的人‖夏日霸主柑橘调_1_轰轰轰的_来自小红书网页版.jpg"
                     alt="Perfume" class="w-full h-full object-cover" />
                 </div>
 
@@ -309,7 +309,7 @@ onMounted(() => {
                   </p>
                   <div class="flex items-center gap-2">
                     <div class="flex-1 h-1 bg-rose-300 dark:bg-rose-700"></div>
-                    <span class="text-2xl font-bold text-rose-600 dark:text-rose-400">23</span>
+                    <span class="text-2xl font-bold text-rose-600 dark:text-rose-400">4</span>
                   </div>
                   <span class="inline-block text-rose-600 dark:text-rose-400 font-bold group-hover:underline">探索香气
                     →</span>
